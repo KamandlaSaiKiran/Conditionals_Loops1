@@ -1,0 +1,27 @@
+Conditional Statements control behavior in JavaScript and determine whether or not pieces of code can run.
+IF statements: where if a condition is true it is used to specify execution for a block of code.
+Example is:
+if(10>5){
+    var outcome="if block";
+}
+output is: if block is printed when we try to print the outcome varaible.
+ELSE statements: where if the same condition is false it specifies the execution for a block of code.
+if("cat"==="dog){
+    var outcome="if block";
+}
+else {
+    var outcome="else block";
+}
+output is : else block is printed when try to print the outcome variable.
+ELSE IF statements: this specifies a new test if the first condition is false.
+if(false){
+    var outcome="if block";
+
+} 
+else if(true){
+    var outcome="else if block";
+}
+else {
+    var outcome="else block"
+}
+output is: else if block is printed when we try to print the outcome vaeiable.

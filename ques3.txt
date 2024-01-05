@@ -1,0 +1,32 @@
+FOR statement:
+A for loop repeats untill a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop
+Syntax:
+    for(initialisation;condition;iteration)
+        statement;
+Example:
+ let i=1;
+ for(i=1;i<=5;i++)
+    console.log(i);
+DO WHILE statement  
+The do while statement repeats untill a specified condition evaluates to false
+do
+   statement
+while(condition)
+    statement
+let i=0;
+do {
+    i+=1;
+    console.log(i);
+
+}while(i<5);
+WHILE statement
+A while statement executes its statement as long as specified condition evaluates to true.
+while(condition)
+   statement;
+let n=0;
+let x=0;
+while(n<3){
+    n++;
+    x+=n;
+}
+
